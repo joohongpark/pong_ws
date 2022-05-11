@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    title Home
+    link(rel="stylesheet" href="https://unpkg.com/mvp.css")
+  body
+    //button(id="ball_plus") 공 크기 증가
+    //button(id="ball_minus") 공 크기 감소
+    canvas(id="pong" width="800" height="600" style="border:5px solid #000;")
+    script(src="/socket.io/socket.io.js")
+    script(src="/public/js/app.js")
